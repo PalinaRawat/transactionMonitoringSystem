@@ -190,11 +190,8 @@ public class TransactionMonitoringSytem {
         int hour = timestamp.getHour();
         return hour <= 5;
     }
-    public static void main (String[] args) throws IOException {
-        List<Transaction> transactions = new ArrayList<>();
-        transactions = loadTransactions("src/transactions.csv");
-
-
+    public static void main (String[] args) {
+        List<Transaction> transactions = loadTransactions("src/transactions.csv");
         TransactionMonitoringSytem monitoringSytem = new TransactionMonitoringSytem();
         List<Transaction> flaggedTransactions = monitoringSytem.flagTransactions(transactions);
         flaggedTransactions.forEach(System.out::println);
