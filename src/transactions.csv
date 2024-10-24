@@ -1,0 +1,11 @@
+userID,timestamp,merchantName,amount
+user1,2024-10-21 10:00:00,Store A,50.0
+user1,2024-10-21 10:02:00,Store B,100.0
+user1,2024-10-21 10:03:00,Store C,200.0
+user1,2024-10-21 10:05:00,Store D,150.0
+user1,2024-10-21 10:07:00,Store A,500.0
+user2,2024-10-21 22:30:00,Store E,1000.0
+user2,2024-10-21 22:35:00,Store F,2000.0
+user3,2024-10-21 01:15:00,Store G,75.0
+user3,2024-10-21 01:20:00,Store G,100.0
+user3,2024-10-21 13:00:00,Store H,300.0
