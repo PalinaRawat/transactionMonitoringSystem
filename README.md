@@ -7,7 +7,7 @@ Proposed use cases:
 3) High frequency transactions
    - More than x (example: 10) transactions within y (example: 5 minutes) time by the same user
 4) Inconsistent location
-  - Flag transactions made by the same user at different locations (i.e, different merchants) within a short time window (example: within 1 hour)
+   - Flag transactions made by the same user at different locations (i.e, different merchants) within a short time window (example: within 1 hour)
 5) Unusually large transactions
    - Group transactions by merchant. Flag transactions that are 10 times larger than the median transaction value at the same merchant
   
